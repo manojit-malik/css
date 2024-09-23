@@ -1,0 +1,22 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: pink; */
+    border: 20px solid #FFe66D;
+    border-top: 20px solid #4ECDC4;
+    /* border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black; */
+
+    animation: spinRelode 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinRelode {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

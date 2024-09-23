@@ -1,0 +1,76 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    /* To take to content in center  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 5; */
+
+    /* for blink effect  */
+    /* animation-name: myAnimation;
+    animation-duration: 0.2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0;
+    animation-iteration-count: infinite; */
+
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction:reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+
+    /* Animation shorthand  */
+    animation: myAnimation 2s linear 1s infinite alternate;
+    
+
+}
+
+@keyframes myAnimation {
+    /* from {background-color: aqua;}
+    to {background-color: red;} */
+
+    /* form{left: 0px;
+        background-color: aqua;
+    }
+    50%{
+        left: 150px;
+        background-color: blue;
+        color: cadetblue;
+    }
+    to {left: 200px;
+        background-color: red;
+        color: white; 
+    } */
+/* OR */
+    0%{left: 0px;
+        background-color: aqua;
+    }
+    50%{
+        left: 150px;
+        background-color: blue;
+        color: cadetblue;
+    }
+    100% {left: 200px;
+        background-color: red;
+        color: white; 
+    }
+}
+
+

@@ -1,0 +1,45 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0.7);
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s;
+}
+div:hover{
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+    /* background-image: url("fox.jpg");
+    background-size: cover; */
+}
+div:active{
+    background-color: pink;
+    font-size: 40px;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,5);
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+    transition: all 1s steps(3) 0.5s;
+}
+.div2:hover{
+    background-color: brown;
+    color: burlywood;
+    font-size: 20px;
+    /* background-image: url("fox.jpg");
+    background-size: cover; */
+}
+.div2:active{
+    background-color: yellow;
+    font-size: 40px;
+}
+

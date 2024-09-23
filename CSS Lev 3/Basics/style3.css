@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: aqua; */
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-color: burlywood;
+    background-image: url("fox.jpg");
+    background-size: cover;
+
+}
+#box2{
+    background-image: url("fox.jpg");
+    /* image will repeat upto the background is completely filled */
+    background-size: contain;
+    /* To not repeat the image. */
+    background-repeat: no-repeat;
+    /* And in the enpty space it will show the background-color */
+    background-color: aqua;
+
+}
+#box3{
+    background-image: url("fox.jpg");
+    /* image will repeat upto the background is completely filled */
+    background-size: contain;
+    
+    background-color: chartreuse;
+
+}
+#box4{
+    background-image: url("fox.jpg");
+    /* This is default for adding background-image */
+    background-size: auto;
+    /* Good practice is to use background-size: cover; always */
+    background-color: antiquewhite;
+
+}

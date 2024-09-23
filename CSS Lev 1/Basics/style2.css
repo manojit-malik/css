@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    text-decoration-style: double;
+    /* text-decoration: underline overline; */
+    /* text-decoration: dotted line-through; */
+}
+p{
+    text-align: right;
+    /* text-decoration:  red wavy line-through ; */
+    
+}
+a{
+    
+    text-decoration: none;
+}
+#h1{
+    font-weight:100;
+    /* font-weight: normal; */
+}
+#h2{
+    font-weight: 300;
+    /* font-weight: bold; */
+}
+#h3{
+    font-weight: 500;
+    /* font-weight: bolder; */
+}
+#h4{
+    font-weight:900;
+    /* font-weight: lighter; */
+}
+#two{
+    font-family: Arial;
+}
+
+

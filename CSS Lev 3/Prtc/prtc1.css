@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+#box1{
+    background-image: url("fox.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    /* top: 0; */
+}

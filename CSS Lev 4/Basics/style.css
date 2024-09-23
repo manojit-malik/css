@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 1400px;
+    /* width: 700; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;  /* (default) */
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* justify-content: end; is writing the content from the end of the main axis i.e. row(left to right), so content will be printng form left to right. */
+    /* justify-content: end; */
+    /* At the centre  */
+    justify-content: center;
+
+    /* About the extra space */
+
+    /* The space to the right most and the last mose side of the box will always half of the space in between boxes */
+    /* justify-content: space-around; */
+    /* The space everywhere is same. */
+    /* justify-content: space-evenly; */
+    
+    /* There will be no space to right and left side of the first and last box like the "space around".
+    And the space present in between the boxes will be equal. */
+    /* justify-content: space-between; */
+
+    /* Will arrange from start and end according "flex-start" and "flex-end". */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center; */
+    /* flex-wrap: wrap; */
+
+    /* will allign all itmes in center */
+    /* align-items: center; */
+
+    /* Will allign all the content in center without leaving any space in between them. And space can be the sides , top, bottom */
+    /* align-content: center; */
+
+    /* Will allign all the content at the top without leaving any space in between them but space will be below them. */
+    /* align-content: flex-start; */
+
+    align-items: flex-start;
+
+    /* Will allign all the content at the bottom without leaving any space in between them but space will be above them. */
+    /* align-content: flex-end; */
+
+    /* It wont let any space in between the content and all the content will be at start */
+    /* align-content: flex-start ; */
+}
+#box1{
+    background-color: red; 
+}
+#box2{
+    background-color: aqua;
+    height: 200px;
+    /* align-self: end; */
+
+    /* It will shring the box2 by *2 of other */
+    /* flex-shrink: 2; */
+
+    /* It will shring the box2 by *0.5 of other (So it will be bigger as it is shrinking by 0.5 by others)*/
+    /* flex-shrink: 0.5; */
+
+    /* To not let it shrink */
+    /* flex-shrink: 0; */
+}
+#box3{
+    background-color: yellow;
+    height: 75px;
+    flex-grow: 2;
+}
+#box4{
+    background-color: pink;
+
+    /* It will make larger the box4 by *2 of other */
+    flex-grow: 1;
+
+    /* It will shring the box2 by *0.5 of other (So it will be bigger as it is shrinking by 0.5 by others)*/
+    /* flex-grow: 0.5; */
+}
+#box5{
+    background-color: gray;
+    /* align-self: self-end; */
+}
+
+

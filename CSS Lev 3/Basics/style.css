@@ -1,0 +1,38 @@
+#box1{
+    /* height: 100px; */
+    /* width: 200px; */
+    background-color: pink;
+    font-size: 20px;
+    /* Height of the box1 would be same as the browser's height */
+    /* 100 is like %, 100 percent of the browser's height. 
+    If it was 50vh, it would have taken 50% of the height of the browser */
+    /* Above discription goes for vw as well, just replace height with width and vh with vw */
+    height: 100vh; 
+    /* "vh" is for height and "vw" for width */
+    width: 50vw;
+    
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    margin-left: 50%;
+    background-color: red;
+    /* 1em=exact of the parent. 2em=*2 of the parent */
+    /* Here by writing 2em we are providing the double size of the parent, which is 20px. 
+    So for this text it would be 40px. */
+    /* 2 times of parent's font size (2em). */
+    font-size: 2em;
+
+    /* for half of the parent's font size, 0.5em */
+    /* font-size: 0.5em; */
+
+    width: 5em;
+}
+/* body{
+    font-size: 20px;
+} */
+#three{
+    width: 5rem;
+    color: white;
+    background-color: blue;
+}
